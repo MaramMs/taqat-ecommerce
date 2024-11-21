@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* App Bar */
+.css-19eey1t-MuiPaper-root-MuiAppBar-root{
+  border: none !important;
+  box-shadow: none !important;
+  --Paper-shadow:none !important;
+  
+}
+
+.css-l328gy-MuiListSubheader-root{
+font-size: 21px !important;
+font-weight: 300 !important;
+color:#232323 !important; 
+}
