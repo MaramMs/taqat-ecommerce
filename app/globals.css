@@ -16,3 +16,20 @@ font-size: 21px !important;
 font-weight: 300 !important;
 color:#232323 !important; 
 }
+
+.css-1usuzwp-MuiButtonBase-root-MuiTab-root.Mui-selected,.css-1usuzwp-MuiButtonBase-root-MuiTab-root {
+ font-size: 18px !important;
+color: #181818 !important;
+font-weight: 400 !important;
+}
+
+.css-1qltlow-MuiTabs-indicator{
+  background-color:#181818 !important;
+}
+.css-stp9o6-MuiTabs-flexContainer{
+  gap:90px !important;
+}
+
+.css-1j74uew-MuiPaper-root-MuiCard-root{
+  box-shadow: none !important;
+}
