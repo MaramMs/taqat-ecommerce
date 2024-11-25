@@ -33,3 +33,7 @@ font-weight: 400 !important;
 .css-1j74uew-MuiPaper-root-MuiCard-root{
   box-shadow: none !important;
 }
+.css-4kfhg4-MuiPaper-root-MuiCard-root {
+  --Paper-shadow:none !important;
+
+}

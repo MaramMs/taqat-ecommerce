@@ -20,9 +20,9 @@ function    Hero() {
   return (
    <Box className="bg-[url('/images/hero.png')] min-h-[116px] lg:min-h-[500px] w-full bg-cover bg-center">
 <Box className='flex flex-col m-[40px] lg:mt-[123px] lg:ml-[90px]'>
-<h1 class="text-[#232323] font-light text-[20px] lg:text-[75px] mb-[5px]">
+<h1 className="text-[#232323] font-light text-[20px] lg:text-[75px] mb-[5px]">
   Blue Queen 
-  <span class="block md:inline-block">Collection</span>
+  <span className="block md:inline-block">Collection</span>
 </h1>
 
 

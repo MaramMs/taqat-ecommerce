@@ -6,6 +6,8 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab'
 import { useState } from 'react';
 import CardList from '../components/Home/cardList';
+import ShopNow from '../components/Home/shopNow';
+import PopularDesignList from '../components/Home/populardesignList';
 export default function Home() {
     const [value, setValue] = useState(0);
 
@@ -18,7 +20,7 @@ export default function Home() {
     
    <Hero />
 
-   <section className='mt-[80px] w-full' >
+   <section className='px-[24px] mt-[80px] w-full' >
     <h2 className='text-[#000000] font-light text-[43px] text-center'>Luxury Jewelry</h2>
     <Box sx={{ width: '100%',mt:'50px',borderTop:'1px solid #D9D9D9' ,borderBottom:'1px solid #D9D9D9' }}>
     <Tabs
@@ -45,6 +47,15 @@ export default function Home() {
     <Box>
       <CardList />
     </Box>
+
+    <Box className='mb-[100px]'>
+      <ShopNow />
+    </Box>
+   </section>
+
+   <section className='px-[24px] md:pl-[24px] md:pr-[266px] mb-[100px] w-full' >
+    <h2 className='text-[#000000] text-[48px] text-center font-light mb-[79px]'>Popular Designs</h2>
+    <PopularDesignList />
    </section>
     </>
   )

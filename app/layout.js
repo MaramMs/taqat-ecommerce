@@ -1,9 +1,12 @@
-import { Inter } from 'next/font/google'
+import { Jost } from 'next/font/google'
 import './globals.css'
 import { Navbar } from './components/sharedComponents/navbar'
 import { Footer } from './components/sharedComponents/footer'
 
-const inter = Inter({ subsets: ['latin'] })
+const jost = Jost({
+  subsets: ['latin'], // Specify subsets as needed
+  weight: ['400', '500', '600', '700'], // Add the font weights you need
+});
 
 export const metadata = {
   title: 'Create Next App',
@@ -13,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={jost.className}>
         <Navbar />
         <main className='flex min-h-screen flex-col items-center '>
         {children}
