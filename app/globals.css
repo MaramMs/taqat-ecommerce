@@ -37,3 +37,9 @@ font-weight: 400 !important;
   --Paper-shadow:none !important;
 
 }
+
+.css-jupps9-MuiInputBase-root-MuiOutlinedInput-root{
+  width: 454px !important;
+  padding: 0px !important;
+  border: 1px solid #E1E1E1 !important;
+}

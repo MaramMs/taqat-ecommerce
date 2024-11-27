@@ -1,4 +1,4 @@
-import { Box, Container, Divider, List, ListItem, ListSubheader, Typography } from '@mui/material'
+import { Box, Button, Container, Divider, FormControl, List, ListItem, ListSubheader, OutlinedInput, TextField, Typography } from '@mui/material'
 import FmdGoodOutlinedIcon from '@mui/icons-material/FmdGoodOutlined';
 import CallOutlinedIcon from '@mui/icons-material/CallOutlined';
 import AccessTimeOutlinedIcon from '@mui/icons-material/AccessTimeOutlined';
@@ -9,6 +9,31 @@ export const Footer = () => {
 
 
 <Box sx={{ flexGrow: 1 }} className='flex flex-col px-[24px]'>
+
+  <Box className='flex justify-center items-center gap-[87px] mb-[94px]' >
+    <Box className='flex flex-col md:flex md:flex-row items-center md:gap-[48px]'>
+     <Box>
+      <img  src='/images/email.svg'/>
+     </Box>
+     <p className='text-[#181818] text-[38px]'>
+     Subscribe To Newsletter
+     </p>
+    </Box>
+
+
+
+<FormControl sx={{ m: 1 ,padding:'0px'}} variant="outlined">
+          <OutlinedInput
+            id="outlined-adornment-password"
+            endAdornment={
+            <button className="bg-[#232323] w-[178px] h-[66px] text-white text-[17px] py-[11px] px-[42px]" >SUBSCRIBE</button>
+            }
+           className='p-0'
+            placeholder='Your Email'
+          />
+        </FormControl>
+
+  </Box>
 <Box className='flex flex-col md:flex-row justify-between'>
 <List
 className='flex flex-col gap-y-[11px]'
