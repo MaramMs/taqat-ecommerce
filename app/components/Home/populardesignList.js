@@ -35,9 +35,9 @@ function PopularDesignList() {
   ];
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <Grid container rowSpacing="70px" columnSpacing={{ xs: '8px', sm: '13px', md: '202px' }}>
+      <Grid container rowSpacing="70px" columnSpacing={{ xs: '8px', sm: '13px', xl: '200px' }}>
         {cardItem?.map((Item, index) => (
-          <Grid size={{ xs: 6, md: 4 }} key={index}>
+          <Grid size={{ xs: 6, lg: 4 }} key={index} >
             <Box>
               <PopularDesign Item={Item} />
             </Box>

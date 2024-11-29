@@ -53,7 +53,7 @@ export default function Home() {
     </Box>
    </section>
 
-   <section className='px-[24px] md:pl-[24px] md:pr-[266px] mb-[100px] w-full' >
+   <section className='px-[24px] md:pl-[24px] xxl:pr-[266px] mb-[100px] w-full' >
     <h2 className='text-[#000000] text-[48px] text-center font-light mb-[79px]'>Popular Designs</h2>
     <PopularDesignList />
    </section>
