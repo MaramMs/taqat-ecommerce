@@ -14,7 +14,8 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import ShareIcon from '@mui/icons-material/Share';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
-
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import { Box } from '@mui/material';
 
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
@@ -40,7 +41,11 @@ const ExpandMore = styled((props) => {
   ],
 }));
 
-export default function CardCustom() {
+
+
+export default function CardCustom({product}) {
+  console.log(product , 'product');
+  
   const [expanded, setExpanded] = React.useState(false);
 
   const handleExpandClick = () => {
@@ -48,39 +53,42 @@ export default function CardCustom() {
   };
 
   return (
-    <Card className='border-none shadow-none'>
+    <Card className='border-none shadow-none '>
       <CardHeader
       
         action={
+     <Box className='flex items-center gap-[70px]'>
+<FavoriteBorderIcon className='text-[#232323] lg:!hidden cursor-pointer' />
           <Typography component='span' className='bg-[#232323] block w-[48px] h-[24px] text-white text-[14px] font-light text-center'>
           New
           </Typography>
+     </Box>
+          
         }
     
       />
       <CardMedia
         component="img"
-        height="194"
-        image="/images/product/1.png"
+        height="174"
+        image={product.img}
         alt="Paella dish"
       />
-      <CardContent className='flex flex-col gap-[16px]'>
-        <Typography component="span" className='text-[20px] text-[#7D7B7C] font-light'>
+      <CardContent className='flex flex-col gap:[8px] md:gap-[16px]'>
+        <Typography component="span" className='hidden md:block text-[20px] text-[#7D7B7C] font-light'>
         Earrings
         </Typography>
 
-        <Typography component="p" className='text-[#232323] text-[28px]' >
-    
-        0.23 Carat Princess Diamond
+        <Typography component="p" className='text-[#232323] text-center md:text-left text-[16px] md:text-[28px]' >
+    {product.title}
         </Typography>
 
-        <Typography component='h5' className='text-[#7D7B7C] font-normal text-[20px]'>
+        <Typography component='h5' className='hidden md:block text-[#7D7B7C] font-normal text-[20px]'>
         E  Colour | SI  Clarity | Excellent Cut | GIA
         </Typography>
 
 
-        <Typography component="span" className='text-[26px] font-light text-[#232323]'>
-        £1,800
+        <Typography component="span" className='text-[16px] md:text-[26px] text-center md:text-left font-light text-[#232323]'>
+        £{product.price}
         </Typography>
       </CardContent>
     

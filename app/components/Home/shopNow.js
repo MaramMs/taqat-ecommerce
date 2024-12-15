@@ -17,9 +17,9 @@ function ShopNow() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
       
-        <div className="absolute pt-[66px] pb-[80px]  justify-center items-center  left-[5px] bottom-0  flex flex-col">
-          <h5 className="mb-[34px] md:text-[53px] font-light text-center w-[60%] text-white leading-[76.5px]">Wood Jewelry Collection</h5>
-          <span className="text-white md:text-[24px] mb-[42px]">New in our shop</span>
+        <div className="absolute lg:pt-[66px] lg:pb-[80px]  justify-center items-center left-[22px]  lg:left-[5px] bottom-[23px] lg:bottom-0  flex flex-col">
+          <h5 className="lg:mb-[34px] mb-[8px] text-[28px] md:text-[53px] font-light text-center lg:w-[60%] text-white lg:leading-[76.5px]">Wood Jewelry Collection</h5>
+          <span className="text-white mb-[8px] text-[24px] md:text-[24px] lg:mb-[42px]">New in our shop</span>
           <button className="text-[#232323] text-[20px] font-light bg-white border border-white py-[20px] px-[40px]">Shop Now</button>
         </div>
       </div>
