@@ -8,43 +8,18 @@ export const Footer = () => {
   return (
 
 
-<Box sx={{ flexGrow: 1 }} className='flex flex-col px-[24px]'>
-
-  <Box className='flex justify-center items-center gap-[87px] mb-[94px]' >
-    <Box className='flex flex-col md:flex md:flex-row items-center md:gap-[48px]'>
-     <Box>
-      <img  src='/images/email.svg'/>
-     </Box>
-     <p className='text-[#181818] text-[38px]'>
-     Subscribe To Newsletter
-     </p>
-    </Box>
-
-
-
-<FormControl sx={{ m: 1 ,padding:'0px'}} variant="outlined">
-          <OutlinedInput
-            id="outlined-adornment-password"
-            endAdornment={
-            <button className="bg-[#232323] w-[178px] h-[66px] text-white text-[17px] py-[11px] px-[42px]" >SUBSCRIBE</button>
-            }
-           className='p-0'
-            placeholder='Your Email'
-          />
-        </FormControl>
-
-  </Box>
-<Box className='flex flex-col md:flex-row justify-between'>
+<Box className='mt-[40px] lg:mt-[0px]flex flex-col '>
+<Box className='px-[24px] flex flex-col md:flex-row justify-between'>
 <List
 className='flex flex-col gap-y-[11px]'
 
 subheader={
-    <ListSubheader component="p" id="nested-list-subheader" className='text-[#232323] text-[21px] font-light'  >
+    <ListSubheader component="p" id="nested-list-subheader" className='text-[#232323] text-[18px] lg:text-[21px] font-light'  >
       MY ACCOUNT
     </ListSubheader>
   }
 >
-<ListItem className='text-[#7D7B7C] text-[19px] font-light flex gap-[22px]'>
+<ListItem className='text-[#7D7B7C] text-[16px] lg:text-[19px] font-light flex gap-[22px]'>
 
   <Box component='span' className='w-[4px] h-[4px] rounded-full border border-[#232323]'>
 
@@ -53,34 +28,34 @@ subheader={
 My account
 </ListItem>
 
-<ListItem className='text-[#7D7B7C] text-[19px] font-light flex gap-[22px]'>
+<ListItem className='text-[#7D7B7C] text-[16px] lg:text-[19px]font-light flex gap-[22px]'>
 <Box component='span' className='w-[4px] h-[4px] rounded-full border border-[#232323]'>
 
 </Box>
 Wishlist
 </ListItem>
 
-<ListItem className='text-[#7D7B7C] text-[19px] font-light flex gap-[22px]'>
+<ListItem className='text-[#7D7B7C] text-[16px] lg:text-[19px] font-light flex gap-[22px]'>
 <Box component='span' className='w-[4px] h-[4px] rounded-full border border-[#232323]'>
 
 </Box>
 Cart
 </ListItem>
 
-<ListItem className='text-[#7D7B7C] text-[19px] font-light flex gap-[22px]'>
+<ListItem className='text-[#7D7B7C] text-[16px] lg:text-[19px] font-light flex gap-[22px]'>
 <Box component='span' className='w-[4px] h-[4px] rounded-full border border-[#232323]'>
 
 </Box>
 Checkout</ListItem>
 
-<ListItem className='text-[#7D7B7C] text-[19px] font-light flex gap-[22px]'>
+<ListItem className='text-[#7D7B7C] text-[16px] lg:text-[19px] font-light flex gap-[22px]'>
 <Box component='span' className='w-[4px] h-[4px] rounded-full border border-[#232323]'>
 
 </Box>
 Maintenance Mode</ListItem>
 
 
-<ListItem className='text-[#7D7B7C] text-[19px] font-light flex gap-[22px]'>
+<ListItem className='text-[#7D7B7C] text-[16px] lg:text-[19px] font-light flex gap-[22px]'>
 <Box component='span' className='w-[4px] h-[4px] rounded-full border border-[#232323]'>
 
 </Box>
@@ -92,11 +67,11 @@ Register Now</ListItem>
 className='flex flex-col gap-y-[11px]'
 
 subheader={
-    <ListSubheader component="p" id="nested-list-subheader" className='text-[#232323] text-[21px] font-light'  >
+    <ListSubheader component="p" id="nested-list-subheader" className='text-[#232323] text-[18px] lg:text-[21px] font-light'  >
 INFORMATION    </ListSubheader>
   }
 >
-<ListItem className='text-[#7D7B7C] text-[19px] font-light flex gap-[22px]'>
+<ListItem className='text-[#7D7B7C] text-[16px] lg:text-[19px] font-light flex gap-[22px]'>
 
   <Box component='span' className='w-[4px] h-[4px] rounded-full border border-[#232323]'>
 
@@ -105,21 +80,21 @@ INFORMATION    </ListSubheader>
   About Us
 </ListItem>
 
-<ListItem className='text-[#7D7B7C] text-[19px] font-light flex gap-[22px]'>
+<ListItem className='text-[#7D7B7C] text-[16px] lg:text-[19px] font-light flex gap-[22px]'>
 <Box component='span' className='w-[4px] h-[4px] rounded-full border border-[#232323]'>
 
 </Box>
 Our Blog
 </ListItem>
 
-<ListItem className='text-[#7D7B7C] text-[19px] font-light flex gap-[22px]'>
+<ListItem className='text-[#7D7B7C] text-[16px] lg:text-[19px]font-light flex gap-[22px]'>
 <Box component='span' className='w-[4px] h-[4px] rounded-full border border-[#232323]'>
 
 </Box>
 FAQ
 </ListItem>
 
-<ListItem className='text-[#7D7B7C] text-[19px] font-light flex gap-[22px]'>
+<ListItem className='text-[#7D7B7C] text-[16px] lg:text-[19px] font-light flex gap-[22px]'>
 <Box component='span' className='w-[4px] h-[4px] rounded-full border border-[#232323]'>
 
 </Box>
@@ -127,7 +102,7 @@ Contacts
 
 </ListItem>
 
-<ListItem className='text-[#7D7B7C] text-[19px] font-light flex gap-[22px]'>
+<ListItem className='text-[#7D7B7C] text-[16px] lg:text-[19px] font-light flex gap-[22px]'>
 <Box component='span' className='w-[4px] h-[4px] rounded-full border border-[#232323]'>
 
 </Box>
@@ -136,7 +111,7 @@ Terms & Conditions
 </ListItem>
 
 
-<ListItem className='text-[#7D7B7C] text-[19px] font-light flex gap-[22px]'>
+<ListItem className='text-[#7D7B7C] text-[16px] lg:text-[19px]font-light flex gap-[22px]'>
 <Box component='span' className='w-[4px] h-[4px] rounded-full border border-[#232323]'>
 
 </Box>
@@ -148,14 +123,14 @@ Refund and Returns Policy
 
 className='flex flex-col gap-y-[11px]'
 subheader={
-    <ListSubheader component="p" id="nested-list-subheader" className='text-[#232323] text-[21px] font-light'  >
+    <ListSubheader component="p" id="nested-list-subheader" className='text-[#232323] text-[18px] lg:text-[21px] font-light'  >
 OUR CONTACTS   
 
 
 </ListSubheader>
   }
 >
-<ListItem className='text-[#7D7B7C] text-[19px] font-light flex gap-[22px]'>
+<ListItem className='text-[#7D7B7C] text-[16px] lg:text-[19px] font-light flex gap-[22px]'>
 
   <Box component='span' className='text-[#232323]'>
   <FmdGoodOutlinedIcon />
@@ -164,21 +139,21 @@ OUR CONTACTS
   283 N. Glenwood Street, Levittown, NY 11756
 </ListItem>
 
-<ListItem className='text-[#7D7B7C] text-[19px] font-light flex gap-[22px]'>
+<ListItem className='text-[#7D7B7C] text-[16px] lg:text-[19px] font-light flex gap-[22px]'>
 <Box component='span' className='text-[#232323]'>
 <CallOutlinedIcon />
 </Box>
 712-339-9294
 </ListItem>
 
-<ListItem className='text-[#7D7B7C] text-[19px] font-light flex gap-[22px]'>
+<ListItem className='text-[#7D7B7C] text-[16px] lg:text-[19px] font-light flex gap-[22px]'>
 <Box component='span' className='text-[#232323]'>
 <AccessTimeOutlinedIcon />
 </Box>
 Mon-Fri: 10:00 - 18:00
 </ListItem>
 
-<ListItem className='text-[#7D7B7C] text-[19px] font-light flex gap-[22px]'>
+<ListItem className='text-[#7D7B7C] text-[16px] lg:text-[19px] font-light flex gap-[22px]'>
 <Box component='span' className='text-[#232323]'>
 <MailOutlineOutlinedIcon />
 </Box>
@@ -238,7 +213,7 @@ info@goldish-jew.com
 
 <Divider />
 
-<Box className='flex flex-col md:flex-row justify-center md:justify-between  items-center py-[20px] mx-[23px] md:py-[32px]'>
+<Box className='px-[24px] flex flex-col md:flex-row justify-center md:justify-between  items-center py-[20px] mx-[23px] md:py-[32px]'>
 
 <Typography variant="p" className='text-[#232323]  font-light text-[14px] md:text-[17px]'>
 © 2024 Decoris Diamonds. All rights reserved.

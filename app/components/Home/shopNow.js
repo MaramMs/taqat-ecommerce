@@ -15,15 +15,11 @@ function ShopNow() {
           alt="Shop Main Image"
           className="h-full w-full"
         />
-        <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
-        <div className="absolute pt-[66px] pb-[80px]  justify-center items-center  left-[5px] bottom-0  flex flex-col">
-          <h5 className="mb-[34px] md:text-[53px] font-light text-center w-[60%] text-white leading-[76.5px]">Wood Jewelry Collection</h5>
-          <span className="text-white md:text-[24px] mb-[42px]">New in our shop</span>
-          <button className="text-[#232323] text-[20px] font-light bg-white border border-white py-[20px] px-[40px]">Shop Now</button>
-        </div>
-        <div className="absolute pt-[66px] pb-[80px]  justify-center items-center  left-[5px] bottom-0  flex flex-col">
-          <h5 className="mb-[34px] md:text-[53px] font-light text-center w-[60%] text-white leading-[76.5px]">Wood Jewelry Collection</h5>
-          <span className="text-white md:text-[24px] mb-[42px]">New in our shop</span>
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
+      
+        <div className="absolute lg:pt-[66px] lg:pb-[80px]  justify-center items-center left-[22px]  lg:left-[5px] bottom-[23px] lg:bottom-0  flex flex-col">
+          <h5 className="lg:mb-[34px] mb-[8px] text-[28px] md:text-[53px] font-light text-center lg:w-[60%] text-white lg:leading-[76.5px]">Wood Jewelry Collection</h5>
+          <span className="text-white mb-[8px] text-[24px] md:text-[24px] lg:mb-[42px]">New in our shop</span>
           <button className="text-[#232323] text-[20px] font-light bg-white border border-white py-[20px] px-[40px]">Shop Now</button>
         </div>
       </div>
@@ -38,7 +34,7 @@ function ShopNow() {
               alt="Shop Image 1"
               className="md:h-full h-[186px]"
             />
-            <div class="absolute inset-0 bg-gradient-to-r from-[#44456A] via-transparent to-transparent"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-[#44456A] via-transparent to-transparent"></div>
             <div className="absolute  md:pb-[80px] left-[20px]  md:left-[69px] bottom-[22px] md:bottom-[111px]  top-[22px] md:top-[112px] flex flex-col">
           <h5 className="mb-[8px] md:mb-[34px] text-[20px] md:text-[53px] font-light text-center  text-white md:leading-[76.5px]">Every Friday Free Gifts</h5>
           <span className="text-white md:text-[24px] mb-[15px] md:mb-[42px]">Exclusive Jewelry Free</span>
@@ -68,7 +64,7 @@ function ShopNow() {
                 alt="Shop Image 3"
                 className="object-cover h-[186px] md:h-full w-full"
               />
-              <div class="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent"></div>
               <div className="absolute pb-[80px]  left-[20px] md:left-[40px] bottom-[22px] md:bottom-[87px] top-[22px] md:top-[83px]   flex flex-col">
           <h5 className="mb-[8px] md:mb-[34px] text-[20px] md:text-[53px] font-light  md:w-[60%] text-white md:leading-[76.5px]">
           Best Sets For Weddings

@@ -12,7 +12,7 @@ import SkipNextIcon from '@mui/icons-material/SkipNext';
 function PopularDesign({Item}) {
 
   return (
-    <Card  className='flex flex-col-reverse md:flex-row-reverse  '>
+    <Card  className='flex flex-col-reverse lg:flex-row-reverse '>
     <Box sx={{ display: 'flex', flexDirection: 'column' }}>
       <CardContent sx={{ flex: '1 0 auto', flexDirection:'column',gap:'11px' }}>
         <Box className='flex items-center gap-[11px]'>
