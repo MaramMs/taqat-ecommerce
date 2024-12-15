@@ -27,30 +27,7 @@
 }
 
 
-@media (min-width: 768px) {
-  .css-stp9o6-MuiTabs-flexContainer {
-  gap: 90px !important;
-}
-.css-1usuzwp-MuiButtonBase-root-MuiTab-root {
-  font-size: 18px !important;
-}
 
-.css-1usuzwp-MuiButtonBase-root-MuiTab-root.Mui-selected,
-.css-1usuzwp-MuiButtonBase-root-MuiTab-root{
-  font-size: 18px !important;
-}
-.swiper-button-next,
-.swiper-button-prev{
-  width: 80px !important;
-  height: 78.91px !important;
-}
-.swiper-button-next {
-  right: 350px !important;
-}
-.swiper-button-prev {
-  left: 350px !important;
-}
-}
 .css-1j74uew-MuiPaper-root-MuiCard-root {
   box-shadow: none !important;
 }
@@ -142,3 +119,27 @@ height: 34px !important;
 
 
 
+@media (min-width: 768px) {
+  .css-stp9o6-MuiTabs-flexContainer {
+  gap: 90px !important;
+}
+.css-1usuzwp-MuiButtonBase-root-MuiTab-root {
+  font-size: 18px !important;
+}
+
+.css-1usuzwp-MuiButtonBase-root-MuiTab-root.Mui-selected,
+.css-1usuzwp-MuiButtonBase-root-MuiTab-root{
+  font-size: 18px !important;
+}
+.swiper-button-next,
+.swiper-button-prev{
+  width: 80px !important;
+  height: 78.91px !important;
+}
+.swiper-button-next {
+  right: 350px !important;
+}
+.swiper-button-prev {
+  left: 350px !important;
+}
+}
