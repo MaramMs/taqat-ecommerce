@@ -2,11 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  --Paper-shadow : none !important 
+}
 /* App Bar */
 .css-19eey1t-MuiPaper-root-MuiAppBar-root {
   border: none !important;
   box-shadow: none !important;
-  --Paper-shadow: none !important;
+  /* --Paper-shadow: none !important; */
 }
 
 .css-l328gy-MuiListSubheader-root {
