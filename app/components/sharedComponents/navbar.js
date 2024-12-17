@@ -55,7 +55,7 @@ export const Navbar = () => {
             {/* Logo */}
             <Box className="flex justify-center items-center">
               <img
-                src="/images/logo.svg"
+                src="/images/Logo.svg"
                 alt="Logo"
                 className="w-[161px] h-[54px] max-w-[100%] max-h-[100%]"
               />
